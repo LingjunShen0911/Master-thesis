@@ -1,0 +1,26 @@
+
+Saber L-2016.03-SP1 Build 33 on 14-Nov-2016 Copyright (c) 1985-2016, Synopsys, 
+Inc.
+MAST L-2016.03-SP1 Build 33 on 14-Nov-2016 Copyright (c) 1985-2016, Synopsys, 
+Inc.
+Library L-2016.03-SP1 Build 33 on 14-Nov-2016 Copyright (c) 1985-2016, Synopsys,
+ Inc.
+
+     Searching for licenses ...
+SABER_SIMULATOR:                 license.
+Template mos_template
+Loading dynamic libraries...
+saber
+Host pxe-86.imsmx.intern, x86_64 running Linux 3.10.0-862.14.4.el7.x86_64 Ver. 
+#1 SMP Wed Sep 26 15:12:11 UTC 2018
+
+show config
+Resource            Current value                 Value if saved
+----------------------------------------------------------------------
+memory_model        flat                          flat
+file_name_format    design.name.ai_pl
+batch_plot          yes
+startup_command     show hostinfo,date            show hostinfo,date
+quit(save no
+mos_template: total CPU execution time= 0.14 sec.
+

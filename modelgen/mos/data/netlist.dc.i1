@@ -1,0 +1,95 @@
+program                Saber
+release                L-2016.03-SP1 Build 33 on 14-Nov-2016 Copyright (c) 1985-2016, Synopsys, Inc.
+source_file            netlist
+created
+data_file              netlist.dc.i2
+format                 binary
+precision              double
+npoints                1
+ncolumns               16
+machine_id             1101
+parameter._version_id  940301
+parameter._tbl_id      1572882335
+tag._ip_has_err
+ynames
+ irff130.dut_mos/mpv2c.q1/da
+ irff130.dut_mos/mpv2c.q1/di
+ irff130.dut_mos/mpv2c.q1/dk
+ irff130.dut_mos/mpv2c.q1/dl
+ irff130.dut_mos/mpv2c.q1/dx
+ irff130.dut_mos/mpv2c.q1/gi
+ irff130.dut_mos/mpv2c.q1/gl
+ irff130.dut_mos/mpv2c.q1/si
+ irff130.dut_mos/mpv2c.q1/sl
+ irff130.dut_mos/mpv2c.q1/c.cgdc/pm
+ irff130.dut_mos/mpv2c.q1/c.cgsc/pm
+ irff130.dut_mos/mpv2c.q1/dsp.1/pi
+ irff130.dut_mos/mpv2c.q1/i(l.ld)
+ irff130.dut_mos/mpv2c.q1/i(l.lg)
+ irff130.dut_mos/mpv2c.q1/i(l.ls)
+ irff130.dut_mos/mpv2c.q1/msp.1/dp
+ irff130.dut_mos/mpv2c.q1/msp.1/sp
+ n_1
+ n_2
+ i(v.vds)
+ i(v.vgs)
+ 0
+yunits
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ i
+ i
+ i
+ v
+ v
+ v
+ v
+ i
+ i
+ <unnamed>
+yproperty.column
+ 1
+ 2
+ 3
+ 3
+ 4
+ 5
+ 6
+ 7
+ 1
+ 4
+ 5
+ 8
+ 9
+ 10
+ 11
+ 2
+ 7
+ 12
+ 13
+ 14
+ 15
+ 16
+unit.v
+ V
+ Volts
+ Voltage
+unit.i
+ A
+ Amperes
+ Current
+unit.<unnamed>
+ -
+ -
+ -
+parameter.time         0

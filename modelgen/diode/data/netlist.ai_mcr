@@ -1,0 +1,7 @@
+Guide:LoadDesign -design netlist.sin
+Saber:Send {dc
+dt (pins all,siglist /d1n4148.dut_diode/id ,sweep /v_dc.ud,swrange from -1 to 2 by 0.01}
+set graph0 $Graph(graph)
+set pf1 [ScopeSigMgr:loadpffile netlist.dt.ai_pl]
+catch { ScopeSigMgr:SaveAsText $pf1 saber_output.txt }
+exit

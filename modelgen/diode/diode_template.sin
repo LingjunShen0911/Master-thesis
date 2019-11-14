@@ -1,0 +1,2 @@
+v_dc.ud p:n1 m:0 = dc_value=1
+DIODE.dut_diode p:n1 n:0

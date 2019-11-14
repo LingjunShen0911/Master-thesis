@@ -1,0 +1,9 @@
+Guide:NewLoadDesign netlist.sin
+SimSession runCommand {vary /v.vgs from -50 to 50 by 0.5 } -blocking no
+SimSession runCommand {dc 
+dt (pins all,siglist /irff130.dut_mos/0 ,sweep /v.vds,swrange from -50 to 50 by 0.5} -blocking no
+SimSession runCommand end -blocking no
+ScopeSigMgr:loadpffile netlist.dt.ai_pl
+# PF:1
+wm geometry .sigmgr._PF:1 232x342+1920+1080
+ScopeSigMgr:SaveAsText PF:1 saber_output.txt

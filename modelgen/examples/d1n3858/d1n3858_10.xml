@@ -1,0 +1,23 @@
+<praise>
+<pwlmodels>
+<element name="d1n3858" variant="10">
+	<model1dim name="id">
+		<input type="voltage" node1="p" node2="n"/>
+		<output type="current" node1="p" node2="n"/>
+		<datapoints>
+			<datapoint x="0" y="0.000944238"/>
+			<datapoint x="0.04775" y="0.00681649"/>
+			<datapoint x="0.08645" y="0.00952776"/>
+			<datapoint x="0.11677" y="0.00939595"/>
+			<datapoint x="0.16748" y="0.00339836"/>
+			<datapoint x="0.2126" y="0.00118874"/>
+			<datapoint x="0.38026" y="0.00128862"/>
+			<datapoint x="0.43207" y="0.00337267"/>
+			<datapoint x="0.515" y="0.00999318"/>
+			<datapoint x="0.68073" y="0.0258196"/>
+			<datapoint x="1" y="0.0580917"/>
+		</datapoints>
+	</model1dim>
+</element>
+</pwlmodels>
+</praise>

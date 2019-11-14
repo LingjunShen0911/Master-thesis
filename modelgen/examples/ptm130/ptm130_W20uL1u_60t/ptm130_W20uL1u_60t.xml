@@ -1,0 +1,117 @@
+<praise>
+<pwlmodels>
+<element name="ptm130" variant="W20uL1u_60t">
+	<model2dim name="ids">
+		<input1 type="voltage" node1="d" node2="s"/>
+		<input2 type="voltage" node1="g" node2="s"/>
+		<output type="current" node1="d" node2="s"/>
+		<vertices>
+			<vertex id="0" x1="-0.4" x2="-0.4" y="-1.052563e-07"/>
+			<vertex id="1" x1="-0.4" x2="-0.1" y="-3.644312e-05"/>
+			<vertex id="2" x1="-0.4" x2="0.2" y="-0.0007256484"/>
+			<vertex id="3" x1="-0.4" x2="0.5" y="-0.001949572"/>
+			<vertex id="4" x1="-0.4" x2="0.8" y="-0.00296105"/>
+			<vertex id="5" x1="-0.4" x2="1.1" y="-0.003674953"/>
+			<vertex id="6" x1="-0.4" x2="1.4" y="-0.004172441"/>
+			<vertex id="7" x1="0" x2="-0.4" y="3.843805e-11"/>
+			<vertex id="8" x1="0" x2="-0.1" y="5.970342e-13"/>
+			<vertex id="9" x1="0" x2="0.2" y="-3.830331e-12"/>
+			<vertex id="10" x1="0" x2="0.5" y="-1.113935e-09"/>
+			<vertex id="11" x1="0" x2="0.8" y="-2.239918e-08"/>
+			<vertex id="12" x1="0" x2="1.1" y="-1.97848e-07"/>
+			<vertex id="13" x1="0" x2="1.4" y="-1.314749e-06"/>
+			<vertex id="14" x1="0.4" x2="-0.4" y="9.950036000000001e-10"/>
+			<vertex id="15" x1="0.4" x2="-0.1" y="2.255027e-10"/>
+			<vertex id="16" x1="0.4" x2="0.2" y="4.535912e-07"/>
+			<vertex id="17" x1="0.4" x2="0.5" y="0.0001451122"/>
+			<vertex id="18" x1="0.4" x2="0.8" y="0.001044789"/>
+			<vertex id="19" x1="0.4" x2="1.1" y="0.002145656"/>
+			<vertex id="20" x1="0.4" x2="1.4" y="0.002971375"/>
+			<vertex id="21" x1="0.8" x2="-0.4" y="1.452533e-08"/>
+			<vertex id="22" x1="0.8" x2="-0.1" y="2.141697e-09"/>
+			<vertex id="23" x1="0.8" x2="0.2" y="4.641522e-07"/>
+			<vertex id="24" x1="0.8" x2="0.5" y="0.0001471017"/>
+			<vertex id="25" x1="0.8" x2="0.8" y="0.001074192"/>
+			<vertex id="26" x1="0.8" x2="1.1" y="0.002475726"/>
+			<vertex id="27" x1="0.8" x2="1.4" y="0.004012418"/>
+			<vertex id="28" x1="1.2" x2="-0.4" y="1.776782e-07"/>
+			<vertex id="29" x1="1.2" x2="-0.1" y="2.735766e-08"/>
+			<vertex id="30" x1="1.2" x2="0.2" y="4.775010999999999e-07"/>
+			<vertex id="31" x1="1.2" x2="0.5" y="0.0001486825"/>
+			<vertex id="32" x1="1.2" x2="0.8" y="0.001084006"/>
+			<vertex id="33" x1="1.2" x2="1.1" y="0.002503858"/>
+			<vertex id="34" x1="1.2" x2="1.4" y="0.004106064"/>
+			<vertex id="35" x1="1.6" x2="-0.4" y="6.985101e-06"/>
+			<vertex id="36" x1="1.6" x2="-0.1" y="3.804988e-07"/>
+			<vertex id="37" x1="1.6" x2="0.2" y="5.334523e-07"/>
+			<vertex id="38" x1="1.6" x2="0.5" y="0.0001501239"/>
+			<vertex id="39" x1="1.6" x2="0.8" y="0.001091858"/>
+			<vertex id="40" x1="1.6" x2="1.1" y="0.002522126"/>
+			<vertex id="41" x1="1.6" x2="1.4" y="0.004139551"/>
+		</vertices>
+		<triangles>
+			<triangle id="0" vertex0="9" vertex1="8" vertex2="15"/>
+			<triangle id="1" vertex0="9" vertex1="15" vertex2="16"/>
+			<triangle id="2" vertex0="17" vertex1="10" vertex2="16"/>
+			<triangle id="3" vertex0="13" vertex1="12" vertex2="19"/>
+			<triangle id="4" vertex0="15" vertex1="8" vertex2="14"/>
+			<triangle id="5" vertex0="9" vertex1="3" vertex2="2"/>
+			<triangle id="6" vertex0="38" vertex1="32" vertex2="31"/>
+			<triangle id="7" vertex0="22" vertex1="16" vertex2="15"/>
+			<triangle id="8" vertex0="7" vertex1="1" vertex2="0"/>
+			<triangle id="9" vertex0="33" vertex1="32" vertex2="39"/>
+			<triangle id="10" vertex0="7" vertex1="8" vertex2="1"/>
+			<triangle id="11" vertex0="14" vertex1="8" vertex2="7"/>
+			<triangle id="12" vertex0="30" vertex1="37" vertex2="31"/>
+			<triangle id="13" vertex0="22" vertex1="29" vertex2="23"/>
+			<triangle id="14" vertex0="25" vertex1="26" vertex2="19"/>
+			<triangle id="15" vertex0="16" vertex1="10" vertex2="9"/>
+			<triangle id="16" vertex0="19" vertex1="20" vertex2="13"/>
+			<triangle id="17" vertex0="24" vertex1="31" vertex2="25"/>
+			<triangle id="18" vertex0="25" vertex1="19" vertex2="18"/>
+			<triangle id="19" vertex0="1" vertex1="8" vertex2="2"/>
+			<triangle id="20" vertex0="3" vertex1="9" vertex2="10"/>
+			<triangle id="21" vertex0="2" vertex1="8" vertex2="9"/>
+			<triangle id="22" vertex0="10" vertex1="4" vertex2="3"/>
+			<triangle id="23" vertex0="17" vertex1="11" vertex2="10"/>
+			<triangle id="24" vertex0="4" vertex1="10" vertex2="11"/>
+			<triangle id="25" vertex0="11" vertex1="5" vertex2="4"/>
+			<triangle id="26" vertex0="12" vertex1="6" vertex2="5"/>
+			<triangle id="27" vertex0="6" vertex1="12" vertex2="13"/>
+			<triangle id="28" vertex0="5" vertex1="11" vertex2="12"/>
+			<triangle id="29" vertex0="11" vertex1="18" vertex2="12"/>
+			<triangle id="30" vertex0="26" vertex1="20" vertex2="19"/>
+			<triangle id="31" vertex0="23" vertex1="24" vertex2="17"/>
+			<triangle id="32" vertex0="18" vertex1="11" vertex2="17"/>
+			<triangle id="33" vertex0="16" vertex1="23" vertex2="17"/>
+			<triangle id="34" vertex0="19" vertex1="12" vertex2="18"/>
+			<triangle id="35" vertex0="17" vertex1="24" vertex2="18"/>
+			<triangle id="36" vertex0="32" vertex1="26" vertex2="25"/>
+			<triangle id="37" vertex0="38" vertex1="31" vertex2="37"/>
+			<triangle id="38" vertex0="32" vertex1="25" vertex2="31"/>
+			<triangle id="39" vertex0="26" vertex1="27" vertex2="20"/>
+			<triangle id="40" vertex0="26" vertex1="33" vertex2="27"/>
+			<triangle id="41" vertex0="27" vertex1="33" vertex2="34"/>
+			<triangle id="42" vertex0="26" vertex1="32" vertex2="33"/>
+			<triangle id="43" vertex0="33" vertex1="40" vertex2="34"/>
+			<triangle id="44" vertex0="40" vertex1="41" vertex2="34"/>
+			<triangle id="45" vertex0="39" vertex1="32" vertex2="38"/>
+			<triangle id="46" vertex0="40" vertex1="33" vertex2="39"/>
+			<triangle id="47" vertex0="14" vertex1="21" vertex2="15"/>
+			<triangle id="48" vertex0="29" vertex1="36" vertex2="30"/>
+			<triangle id="49" vertex0="24" vertex1="30" vertex2="31"/>
+			<triangle id="50" vertex0="23" vertex1="16" vertex2="22"/>
+			<triangle id="51" vertex0="21" vertex1="22" vertex2="15"/>
+			<triangle id="52" vertex0="28" vertex1="29" vertex2="22"/>
+			<triangle id="53" vertex0="18" vertex1="24" vertex2="25"/>
+			<triangle id="54" vertex0="23" vertex1="30" vertex2="24"/>
+			<triangle id="55" vertex0="28" vertex1="22" vertex2="21"/>
+			<triangle id="56" vertex0="29" vertex1="30" vertex2="23"/>
+			<triangle id="57" vertex0="35" vertex1="29" vertex2="28"/>
+			<triangle id="58" vertex0="36" vertex1="37" vertex2="30"/>
+			<triangle id="59" vertex0="35" vertex1="36" vertex2="29"/>
+		</triangles>
+	</model2dim>
+</element>
+</pwlmodels>
+</praise>
