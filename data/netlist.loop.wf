@@ -1,0 +1,108 @@
+pushloop /v.vgs from -4 to 8 by 0.48 (serial 1, loopcmd vary)
+pushalter
+alter /v.vgs=-4
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=-3.52
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=-3.04
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=-2.56
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=-2.08
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=-1.6
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=-1.12
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=-0.64
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=-0.16
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=0.32
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=0.8
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=1.28
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=1.76
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=2.24
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=2.72
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=3.2
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=3.68
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=4.16
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=4.64
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=5.12
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=5.6
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=6.08
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=6.56
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=7.04
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=7.52
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+alter /v.vgs=8
+dc
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68
+wdefpar (serial 1)
+popalter
+poploop

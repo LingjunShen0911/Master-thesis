@@ -1,0 +1,9 @@
+Guide:LoadDesign -design netlist.sin
+Saber:Send {vary /v.vgs from -4 to 8 by 0.48 }
+Saber:Send {dc 
+dt (pins all,siglist /irff130.dut_mos/id ,sweep /v.vds,swrange from -2 to 15 by 0.68}
+Saber:Send {end}
+set graph0 $Graph(graph)
+set pf1 [ScopeSigMgr:loadpffile netlist.dt.ai_pl]
+catch { ScopeSigMgr:SaveAsText $pf1 saber_output.txt }
+exit
