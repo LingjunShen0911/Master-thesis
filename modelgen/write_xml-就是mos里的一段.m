@@ -1,7 +1,7 @@
 function [] = write_xml(Points, Triangles, outputFilename, elementName, variantName) 
 % writes a xml-model
 %
-% Syntax:  
+% Syntax:  %% 调用函数
 %   write_xml(Points, Lines, Triangles, outputFilename)
 %
 % Inputs:
@@ -22,7 +22,7 @@ function [] = write_xml(Points, Triangles, outputFilename, elementName, variantN
 % Last update: 6-January-2015
 % Last revision: 1.1
 
-fxml = fopen(outputFilename, 'w');
+fxml = fopen(outputFilename, 'w');   %%这里outputfilename是model.xml嘛？
 	fprintf(fxml, '<praise>\n');
 	fprintf(fxml, '<pwlmodels>\n');
 	fprintf(fxml, ['<element name="%s" variant="' variantName '">\n'], elementName);
@@ -50,7 +50,7 @@ fxml = fopen(outputFilename, 'w');
 % 	fprintf(fxml, '		<element id="2" name="vccs.ID vp:g vm:s p:d m:s = k=ID"/>\n');
 % 	fprintf(fxml, '	</elements>\n');
 
-	fprintf(fxml, '		<vertices>\n');
+	fprintf(fxml, '		<vertices>\n'); %%顶点
 
     for (i = 1:size(Points(:,1)))
 		x1 = Points(i,1);
@@ -60,7 +60,7 @@ fxml = fopen(outputFilename, 'w');
 	end;
 	fprintf(fxml, '		</vertices>\n');
 
-	fprintf(fxml, '		<triangles>\n');
+	fprintf(fxml, '		<triangles>\n'); %%三角形
 	for (i = 1:1:size(Triangles(:,1)))
 		vertex0 = Triangles(i,1) -1;
 		vertex1 = Triangles(i,2) -1;
