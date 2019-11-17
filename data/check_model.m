@@ -10,15 +10,15 @@ m = 0;
 loop_counter = 0;
 triangle_of_nr=0;
 
-%%% parsing model.dat
+%%% parsing model.dat %% can't find this file
 fid=fopen('model.dat');
 while(1)
-    newline=fgetl(fid);
+    newline=fgetl(fid); %% 读取文件中的行，并删除文件中的换行符
     if (newline == -1)
         break;
     end
     %get 'INPUT1 from model.dat (2D)'
-    if regexp(newline, 'voltage d s ')
+    if regexp(newline, 'voltage d s ')  %%匹配正则表达式，所有匹配项的开始和结束索引.在newline里搜索voltage d s
         [start_idx, end_idx, extents, matches, tokens, names, splits]= regexp(newline, ' ');
         %nr_of_faces = splits{4};
         for i=1:length(splits)
