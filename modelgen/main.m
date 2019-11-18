@@ -18,6 +18,8 @@ deviceNames{33} = {'d1n3858' '10'};
 
 deviceNames{41} = {'ptm180' 'WL'};
 
+deviceNames{50} = {'irff130' 'test'}
+
 %% List of all reference Model
 referenceNames{11} = 'ptm130_W20uL1u_5000t';
 referenceNames{12} = 'irff130_ref_57800_t';
@@ -37,11 +39,11 @@ referenceNames{48} = 'ptm180_PMOS_W400000L0,18';
 
 %% Settings %%
 % Select device and its reference model
-deviceName = deviceNames{41}{1};
-variantName = deviceNames{41}{2};
+deviceName = deviceNames{50}{1};
+variantName = deviceNames{50}{2};
 ModelName = [deviceName '_' variantName];
 
-referenceName = referenceNames{48};
+referenceName = referenceNames{12};
 
 %Switch for Simulated Annealing
 StartSA = 1;
@@ -80,6 +82,8 @@ elseif exist(paths.IsTransistor) == 2
     paths.initialSimDataPath = fullfile(paths.variantPath,[ModelName '.txt']);
 
     paths.resultPath = fullfile(paths.dataPath,ModelName);
+    
+    disp('bis hier ist richtig')
 
     if exist(paths.resultPath) == 0
         mkdir(paths.resultPath);
@@ -108,6 +112,9 @@ elseif exist(paths.IsTransistor) == 2
     if StartSA
         disp(['INFO: Reference model: ' referenceName]);
         disp(['INFO: Initial model: ' ModelName]);
+        
+            disp('bis hier ist noch richtig')
+
         [ PWLModel, PWLCharacteristics, variantName ] = simulatedannealing(paths);
 
         %write XML file

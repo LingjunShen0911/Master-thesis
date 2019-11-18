@@ -1,3 +1,0 @@
-dc
-dt (pins all,siglist /irff130.dut_mos/0 ,sweep /v.vds,swrange from -50 to 50 by 0.5
-end

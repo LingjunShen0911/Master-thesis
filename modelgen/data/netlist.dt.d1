@@ -1,0 +1,120 @@
+program                Saber
+release                L-2016.03-SP1 Build 33 on 14-Nov-2016 Copyright (c) 1985-2016, Synopsys, Inc.
+source_file            netlist
+created
+data_file              netlist.dt.d2
+format                 binary
+byte_order             little_endian
+fp_format              ieee
+machine_id             1101
+parameter._version_id  940301
+parameter._tbl_id      1548241659
+command                dtanalysis
+xname                  /v.vds
+xunits                 v
+tag._stress
+ncolumns               17
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - -4
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - -3.52
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - -3.04
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - -2.56
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - -2.08
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - -1.6
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - -1.12
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - -0.64
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - -0.16
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 0.32
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 0.8
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 1.28
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 1.76
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 2.24
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 2.72
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 3.2
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 3.68
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 4.16
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 4.64
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 5.12
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 5.6
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 6.08
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 6.56
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 7.04
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 7.52
+sproperty.xbegin       C000000000000000=-2
+sproperty.xend         402E000000000000=15
+npoints                26
+defpar number /v.vgs - 8
