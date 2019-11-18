@@ -86,7 +86,7 @@ input=csvread('saber_output.csv',1,0); %%csvread:从saber_output文件中读取�
 
 %%input是以步长0.68 equidistance sampling
 
-% parsing range of V_GS
+% parsing range of V_GS %%
 %Vgs_min = ...;
 %Vgs_max = ...;
 %Vgs_min=0;     %(for user DEBUG)

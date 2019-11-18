@@ -44,7 +44,7 @@ ModelName = [deviceName '_' variantName];
 referenceName = referenceNames{48};
 
 %Switch for Simulated Annealing
-StartSA = 0;
+StartSA = 1;
 
 %% Initialization
 
